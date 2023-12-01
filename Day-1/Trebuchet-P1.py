@@ -18,8 +18,7 @@ for line in lines:
             last_number = char
             break
     
-    number = (first_number + last_number)
-    number = int(number) 
+    number = int(first_number + last_number)
     finalnumber += number
 
 print(finalnumber)

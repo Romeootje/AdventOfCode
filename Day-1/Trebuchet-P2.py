@@ -14,10 +14,8 @@ number_words = {
 }
 
 finalnumber = 0;
-count = 1;
 for line in lines:
 
-    count += 1;
     line = line.strip()
 
     for word, digit in number_words.items():
