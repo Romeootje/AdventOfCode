@@ -9,7 +9,6 @@ for line in lines:
 
     winningnumbers_set = set(winningnumbers.strip().split())
     card_set = set(card.strip().split())
-
     winninggames = winningnumbers_set.intersection(card_set)
 
     count_winning_numbers = len(winninggames)
